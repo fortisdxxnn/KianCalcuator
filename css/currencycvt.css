@@ -1,0 +1,178 @@
+.container{
+    width:100%;
+    height:80vh;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.dis > input{
+    background-color:#1fdf49;
+    color:#1fdf49;
+}
+
+.buttons{
+    width:50%;
+    float:right;
+    text-align:right;
+}
+.button{
+    border:1px solid #999;
+    line-height:100px;
+    font-size:25px;
+    text-align:center;
+    height:16vh;
+    width:32%;
+    float:left;
+    cursor:pointer;
+    border-radius:10px;
+    margin:2px 2px 2px 2px;
+}
+
+#equal{
+    background:#A020F0;
+    color:#ffffff;
+}
+
+.display{
+    width:50%;
+    float:left;
+    height:80vh;
+}
+
+.input-first-curr, .display-curr{
+    width:90%;
+    margin-left:20px;
+}
+
+.cur1,.cur2{
+    height:40vh;
+}
+
+.display1,.display2{
+    height:50px;
+}
+.dollar-sign{
+    float:left;
+    font-size:30px;
+    /* width:10%; */
+}
+
+select{
+    float:none;
+}
+
+.currencies-sel{
+    width:50%;
+    margin-left:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.money{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.title{
+    text-align:center;
+}
+
+.button-spec{
+    line-height:100px;
+    font-size:25px;
+    text-align:center;
+    height:16vh;
+    width:32%;
+    float:left;
+    margin:2px 2px 2px 2px;
+}
+
+.display2{
+    font-size:25px;
+    font-weight:bolder;
+}
+
+.ui-header{
+    margin-bottom:0px;
+    padding:0px;
+}
+
+
+@media only screen and (max-width:1000px){
+
+    .ui-input-text{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    } 
+
+    .ui-input-text:nth-of-child(2){
+        margin-top:5px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+        color:#ffffff;
+        } 
+    .display{
+        width:100%;
+        font-size:35px;
+        height:40vh;
+    }
+
+    .button, .button-spec{
+        width:31%;
+        height:8.3vh;
+    }
+    .buttons{
+        width:100%;
+        height:40vh;
+    }
+
+    .title{
+        text-align:left;
+    }
+
+    .display1, .display2{
+        height:30px;
+        font-size:20px;
+        width:60%;
+    }
+
+    .dollar-sign{
+        font-size:20px;
+    }
+
+    .from-curr, .to-curr{
+        height:15px;
+        font-size:12px;
+        margin-top:0;
+    }
+
+    .title{
+        display:none;
+        width:100%;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size:18px;
+    }
+
+    .money{
+        margin-left:0;
+        width:80%;
+    }
+
+    .currencies-sel{
+        margin-left:20px;
+        width:60%;
+    }
+
+    .cur1{
+        height:20vh;
+        padding:0;
+        margin:0px;
+    }
+}
